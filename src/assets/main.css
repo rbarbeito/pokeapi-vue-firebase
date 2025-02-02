@@ -1,1 +1,18 @@
 @import 'tailwindcss';
+
+.btn {
+  @apply cursor-pointer px-4 py-2 w-fit rounded-md outline-none font-semibold;
+}
+
+.gradient_to_bottom_blue {
+  @apply bg-gradient-to-b from-cyan-400 to-blue-500;
+}
+
+.entrada_formulario {
+  @apply outline-none px-4 py-2  rounded-md;
+}
+
+
+a{
+	@apply cursor-pointer
+}
